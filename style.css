@@ -1,0 +1,40 @@
+*{
+  background-image: url("https://i.pinimg.com/originals/13/99/02/139902f43c6fa2402969fb2f5d5ac483.jpg");
+  background-size: 100vw 100vh;
+}
+h1{
+  text-align:center;
+  font-family: "Roboto Mono";
+}
+main{
+  color: orange;
+}
+h2{
+  text-align:center;
+  font-family: "Inconsolata";
+}
+p{
+  font-size:20px;
+}
+.profile{
+  text-align:center;
+  font-family: "Roboto Mono";
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-container {
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+  gap: 10px;
+}
